@@ -32,4 +32,4 @@ Total Sales 136.48M | Total Profit 16.95M | Orders 2K | Customers 150 | Profit M
 - Technology category contributed about 69% of total sales.
 - Office Copier was the top-selling product.
 - Total Profit of 16.95M on 136.48M sales gives an overall profit margin of 12.42%.
-- Sales trend by month is shown in the line chart on the dashboard.
+- Sales are highest towards the end of the year (October to December), based on the Monthly Sales Trend.
