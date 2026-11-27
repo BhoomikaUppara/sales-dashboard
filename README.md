@@ -1,26 +1,35 @@
-# sales-dashboard
+# Sales Data Analysis Dashboard
 
-Sales analysis using SQL, Python and Power BI
+End-to-end sales analysis using Python, SQL (MySQL) and Power BI.
 
-\# Sales Data Analysis Dashboard
+## Dataset
+Simulated retail sales data (India) generated with Python (pandas, numpy) for practice:
+~5,000 rows, 2022-2025, with duplicates, missing values and inconsistent text added on purpose.
 
+## Tools
+Python (pandas) | MySQL | Power BI
 
+## Project Structure
+- python/ : data generation and cleaning scripts
+- sql/ : table creation and analysis queries
+- powerbi/ : dashboard file
+- data/ : raw and clean data
+- images/ : dashboard screenshots
 
-Analysis of retail sales data using SQL, Python and Power BI.
+## Data Cleaning
+- Removed 30 duplicate rows
+- Fixed missing segment values using customer ID
+- Standardised region spelling and column names
+- Added year, month, margin and shipping days columns
 
+## Key KPIs
+Total Sales 136.48M | Total Profit 16.95M | Orders 2K | Customers 150 | Profit Margin 12.42%
 
+## Dashboard
+![Dashboard](images/dashboard_page1.png)
 
-\## Tools
-
-\- MySQL
-
-\- Python (pandas)
-
-\- Power BI
-
-
-
-\## Status
-
-In progress
-
+## Key Insights
+- Technology category contributed about 69% of total sales.
+- Office Copier was the top-selling product.
+- Total Profit of 16.95M on 136.48M sales gives an overall profit margin of 12.42%.
+- Sales trend by month is shown in the line chart on the dashboard.
